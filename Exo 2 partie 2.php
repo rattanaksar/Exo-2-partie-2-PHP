@@ -18,13 +18,12 @@
       }
       elseif ($isEasy == false)
       {
-          echo "C'est difficile !"; ?>
+          echo "C'est difficile !";
       }
-      </p>
+      $isEasy = true;?>
+    </p>
     <p>
-      <?php 
-        $isEasy = true;
-
+    <?php
       if ($isEasy)
       {
           echo "C'est facile !";
