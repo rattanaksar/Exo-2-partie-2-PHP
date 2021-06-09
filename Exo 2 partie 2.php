@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Exo 2 : Les conditions</h1>
+    <p>
     <?php
       $isEasy = false;
 
@@ -17,10 +18,12 @@
       }
       elseif ($isEasy == false)
       {
-          echo "C'est difficile !";
+          echo "C'est difficile !"; ?>
       }
-      echo "<br>";
-      $isEasy = true;
+      </p>
+    <p>
+      <?php 
+        $isEasy = true;
 
       if ($isEasy)
       {
@@ -31,5 +34,6 @@
           echo "C'est difficile !";
       }
     ?>
+    </p>
 </body>
 </html>
