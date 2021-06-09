@@ -19,6 +19,17 @@
       {
           echo "C'est difficile !";
       }
+      echo "<br>";
+      $isEasy = true;
+
+      if ($isEasy)
+      {
+          echo "C'est facile !";
+      }
+      else
+      {
+          echo "C'est difficile !";
+      }
     ?>
 </body>
 </html>
