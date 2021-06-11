@@ -12,13 +12,13 @@
     <?php
       $isEasy = false;
 
-      if ($isEasy== true)
+      if ($isEasy == true)
       {
-          echo "C'est facile !";
+          echo 'C\'est facile !';
       }
-      elseif ($isEasy == false)
+      else
       {
-          echo "C'est difficile !";
+          echo 'C\'est difficile !';
       }
       $isEasy = true;?>
     </p>
@@ -26,11 +26,11 @@
     <?php
       if ($isEasy)
       {
-          echo "C'est facile !";
+          echo 'C\'est facile !';
       }
       else
       {
-          echo "C'est difficile !";
+          echo 'C\'est difficile !';
       }
     ?>
     </p>
